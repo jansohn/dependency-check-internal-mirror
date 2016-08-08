@@ -1,0 +1,215 @@
+2016-08-08 15:25:18,553 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: data.directory='C:\Users\XXX\dependency-check\bin\..\data'
+2016-08-08 15:25:18,568 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: autoupdate='true'
+2016-08-08 15:25:18,568 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: analyzer.experimental.enabled='false'
+2016-08-08 15:25:18,568 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: analyzer.jar.enabled='true'
+2016-08-08 15:25:18,568 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: analyzer.archive.enabled='true'
+2016-08-08 15:25:18,568 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: analyzer.python.distribution.enabled='true'
+2016-08-08 15:25:18,568 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: analyzer.python.package.enabled='true'
+2016-08-08 15:25:18,568 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: analyzer.autoconf.enabled='true'
+2016-08-08 15:25:18,568 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: analyzer.cmake.enabled='true'
+2016-08-08 15:25:18,568 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: analyzer.nuspec.enabled='true'
+2016-08-08 15:25:18,568 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: analyzer.assembly.enabled='true'
+2016-08-08 15:25:18,568 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: analyzer.bundle.audit.enabled='true'
+2016-08-08 15:25:18,568 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: analyzer.openssl.enabled='true'
+2016-08-08 15:25:18,568 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: analyzer.composer.lock.enabled='true'
+2016-08-08 15:25:18,568 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: analyzer.node.package.enabled='true'
+2016-08-08 15:25:18,568 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: analyzer.ruby.gemspec.enabled='true'
+2016-08-08 15:25:18,568 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: analyzer.central.enabled='true'
+2016-08-08 15:25:18,568 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: analyzer.nexus.enabled='true'
+2016-08-08 15:25:18,584 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: analyzer.nexus.proxy='true'
+2016-08-08 15:25:18,584 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: cve.url-1.2.base='http://10.189.227.117:8010/nvdmirror/files/nvdcve-%d.xml.gz'
+2016-08-08 15:25:18,584 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: cve.url-2.0.base='http://10.189.227.117:8010/nvdmirror/files/nvdcve-2.0-%d.xml.gz'
+2016-08-08 15:25:18,584 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: cve.url-1.2.modified='http://10.189.227.117:8010/nvdmirror/files/nvdcve-Modified.xml.gz'
+2016-08-08 15:25:18,584 org.owasp.dependencycheck.utils.Settings:496
+DEBUG - Setting: cve.url-2.0.modified='http://10.189.227.117:8010/nvdmirror/files/nvdcve-2.0-Modified.xml.gz'
+2016-08-08 15:25:18,584 org.owasp.dependencycheck.data.nvdcve.ConnectionFactory:105
+DEBUG - Loading driver: org.h2.Driver
+2016-08-08 15:25:18,599 org.owasp.dependencycheck.utils.Settings:672
+DEBUG - Settings.getDataFile() - file: 'C:\Users\XXX\dependency-check\bin\..\data'
+2016-08-08 15:25:18,599 org.owasp.dependencycheck.utils.Settings:904
+DEBUG - Connection String: 'jdbc:h2:file:C:\Users\XXX\dependency-check\data\dc;FILE_LOCK=SERIALIZED;AUTOCOMMIT=ON;'
+2016-08-08 15:25:18,599 org.owasp.dependencycheck.utils.Settings:672
+DEBUG - Settings.getDataFile() - file: 'C:\Users\XXX\dependency-check\bin\..\data'
+2016-08-08 15:25:18,599 org.owasp.dependencycheck.data.nvdcve.ConnectionFactory:135
+DEBUG - Need to create DB Structure: true
+2016-08-08 15:25:18,599 org.owasp.dependencycheck.data.nvdcve.ConnectionFactory:141
+DEBUG - Loading database connection
+2016-08-08 15:25:18,599 org.owasp.dependencycheck.data.nvdcve.ConnectionFactory:142
+DEBUG - Connection String: jdbc:h2:file:C:\Users\XXX\dependency-check\data\dc;FILE_LOCK=SERIALIZED;AUTOCOMMIT=ON;
+2016-08-08 15:25:18,599 org.owasp.dependencycheck.data.nvdcve.ConnectionFactory:143
+DEBUG - Database User: dcuser
+2016-08-08 15:25:19,660 org.owasp.dependencycheck.data.nvdcve.ConnectionFactory:250
+DEBUG - Creating database structure
+2016-08-08 15:25:19,691 org.owasp.dependencycheck.data.nvdcve.ConnectionFactory:364
+DEBUG - Current Schema: 3.0
+2016-08-08 15:25:19,691 org.owasp.dependencycheck.data.nvdcve.ConnectionFactory:365
+DEBUG - DB Schema: 2.9
+2016-08-08 15:25:19,707 org.owasp.dependencycheck.data.nvdcve.ConnectionFactory:293
+DEBUG - Updating database structure
+2016-08-08 15:25:19,802 org.owasp.dependencycheck.analyzer.AnalyzerService:73
+DEBUG - Loaded Analyzer Archive Analyzer
+2016-08-08 15:25:19,802 org.owasp.dependencycheck.analyzer.AnalyzerService:73
+DEBUG - Loaded Analyzer File Name Analyzer
+2016-08-08 15:25:19,802 org.owasp.dependencycheck.analyzer.AnalyzerService:73
+DEBUG - Loaded Analyzer Jar Analyzer
+2016-08-08 15:25:19,802 org.owasp.dependencycheck.analyzer.AnalyzerService:73
+DEBUG - Loaded Analyzer Hint Analyzer
+2016-08-08 15:25:19,817 org.owasp.dependencycheck.analyzer.AnalyzerService:73
+DEBUG - Loaded Analyzer CPE Analyzer
+2016-08-08 15:25:19,817 org.owasp.dependencycheck.analyzer.AnalyzerService:73
+DEBUG - Loaded Analyzer False Positive Analyzer
+2016-08-08 15:25:19,817 org.owasp.dependencycheck.analyzer.AnalyzerService:73
+DEBUG - Loaded Analyzer Cpe Suppression Analyzer
+2016-08-08 15:25:19,817 org.owasp.dependencycheck.analyzer.AnalyzerService:73
+DEBUG - Loaded Analyzer Dependency Bundling Analyzer
+2016-08-08 15:25:19,817 org.owasp.dependencycheck.analyzer.AnalyzerService:73
+DEBUG - Loaded Analyzer NVD CVE Analyzer
+2016-08-08 15:25:19,817 org.owasp.dependencycheck.analyzer.AnalyzerService:73
+DEBUG - Loaded Analyzer Vulnerability Suppression Analyzer
+2016-08-08 15:25:19,817 org.owasp.dependencycheck.analyzer.CentralAnalyzer:112
+DEBUG - Enabling the Central analyzer
+2016-08-08 15:25:19,817 org.owasp.dependencycheck.analyzer.AnalyzerService:73
+DEBUG - Loaded Analyzer Central Analyzer
+2016-08-08 15:25:19,817 org.owasp.dependencycheck.analyzer.NexusAnalyzer:118
+DEBUG - Nexus analyzer disabled, using Central instead
+2016-08-08 15:25:19,817 org.owasp.dependencycheck.analyzer.AnalyzerService:73
+DEBUG - Loaded Analyzer Nexus Analyzer
+2016-08-08 15:25:19,817 org.owasp.dependencycheck.analyzer.AnalyzerService:73
+DEBUG - Loaded Analyzer Nuspec Analyzer
+2016-08-08 15:25:19,833 org.owasp.dependencycheck.analyzer.AnalyzerService:73
+DEBUG - Loaded Analyzer Assembly Analyzer
+2016-08-08 15:25:19,848 org.owasp.dependencycheck.analyzer.AnalyzerService:73
+DEBUG - Loaded Analyzer OpenSSL Source Analyzer
+2016-08-08 15:25:19,864 org.owasp.dependencycheck.App:223
+DEBUG - Scanning C:/Users/XXX/dependency-check/test
+2016-08-08 15:25:19,911 org.owasp.dependencycheck.App:257
+DEBUG - Found file C:\Users\XXX\dependency-check\test\proceed.moduletemplate-1.0.jar
+2016-08-08 15:25:20,160 org.owasp.dependencycheck.Engine:486
+INFO  - Checking for updates
+2016-08-08 15:25:20,738 org.owasp.dependencycheck.data.nvdcve.CveDB:91
+DEBUG - Database dialect: H2
+2016-08-08 15:25:21,784 org.owasp.dependencycheck.data.nvdcve.CveDB:91
+DEBUG - Database dialect: H2
+2016-08-08 15:25:21,832 org.owasp.dependencycheck.data.update.nvd.UpdateableNvdCve:100
+DEBUG - Checking for updates from: http://10.189.227.117:8010/nvdmirror/files/nvdcve-2.0-Modified.xml.gz
+2016-08-08 15:25:21,894 org.owasp.dependencycheck.data.update.nvd.UpdateableNvdCve:100
+DEBUG - Checking for updates from: http://10.189.227.117:8010/nvdmirror/files/nvdcve-2.0-2002.xml.gz
+2016-08-08 15:25:21,910 org.owasp.dependencycheck.data.update.nvd.UpdateableNvdCve:100
+DEBUG - Checking for updates from: http://10.189.227.117:8010/nvdmirror/files/nvdcve-2.0-2003.xml.gz
+2016-08-08 15:25:21,910 org.owasp.dependencycheck.data.update.nvd.UpdateableNvdCve:100
+DEBUG - Checking for updates from: http://10.189.227.117:8010/nvdmirror/files/nvdcve-2.0-2004.xml.gz
+2016-08-08 15:25:21,925 org.owasp.dependencycheck.data.update.nvd.UpdateableNvdCve:100
+DEBUG - Checking for updates from: http://10.189.227.117:8010/nvdmirror/files/nvdcve-2.0-2005.xml.gz
+2016-08-08 15:25:21,925 org.owasp.dependencycheck.data.update.nvd.UpdateableNvdCve:100
+DEBUG - Checking for updates from: http://10.189.227.117:8010/nvdmirror/files/nvdcve-2.0-2006.xml.gz
+2016-08-08 15:25:21,941 org.owasp.dependencycheck.data.update.nvd.UpdateableNvdCve:100
+DEBUG - Checking for updates from: http://10.189.227.117:8010/nvdmirror/files/nvdcve-2.0-2007.xml.gz
+2016-08-08 15:25:21,941 org.owasp.dependencycheck.data.update.nvd.UpdateableNvdCve:100
+DEBUG - Checking for updates from: http://10.189.227.117:8010/nvdmirror/files/nvdcve-2.0-2008.xml.gz
+2016-08-08 15:25:21,956 org.owasp.dependencycheck.data.update.nvd.UpdateableNvdCve:100
+DEBUG - Checking for updates from: http://10.189.227.117:8010/nvdmirror/files/nvdcve-2.0-2009.xml.gz
+2016-08-08 15:25:21,972 org.owasp.dependencycheck.data.update.nvd.UpdateableNvdCve:100
+DEBUG - Checking for updates from: http://10.189.227.117:8010/nvdmirror/files/nvdcve-2.0-2010.xml.gz
+2016-08-08 15:25:21,972 org.owasp.dependencycheck.data.update.nvd.UpdateableNvdCve:100
+DEBUG - Checking for updates from: http://10.189.227.117:8010/nvdmirror/files/nvdcve-2.0-2011.xml.gz
+2016-08-08 15:25:22,003 org.owasp.dependencycheck.data.update.nvd.UpdateableNvdCve:100
+DEBUG - Checking for updates from: http://10.189.227.117:8010/nvdmirror/files/nvdcve-2.0-2012.xml.gz
+2016-08-08 15:25:22,019 org.owasp.dependencycheck.data.update.nvd.UpdateableNvdCve:100
+DEBUG - Checking for updates from: http://10.189.227.117:8010/nvdmirror/files/nvdcve-2.0-2013.xml.gz
+2016-08-08 15:25:22,019 org.owasp.dependencycheck.data.update.nvd.UpdateableNvdCve:100
+DEBUG - Checking for updates from: http://10.189.227.117:8010/nvdmirror/files/nvdcve-2.0-2014.xml.gz
+2016-08-08 15:25:22,034 org.owasp.dependencycheck.data.update.nvd.UpdateableNvdCve:100
+DEBUG - Checking for updates from: http://10.189.227.117:8010/nvdmirror/files/nvdcve-2.0-2015.xml.gz
+2016-08-08 15:25:22,050 org.owasp.dependencycheck.data.update.nvd.UpdateableNvdCve:100
+DEBUG - Checking for updates from: http://10.189.227.117:8010/nvdmirror/files/nvdcve-2.0-2016.xml.gz
+2016-08-08 15:25:23,205 org.owasp.dependencycheck.data.nvdcve.CveDB:91
+DEBUG - Database dialect: H2
+2016-08-08 15:25:23,205 org.owasp.dependencycheck.data.update.EngineVersionCheck:104
+DEBUG - Begin Engine Version Check
+2016-08-08 15:25:23,205 org.owasp.dependencycheck.data.update.EngineVersionCheck:110
+DEBUG - Last checked: 0
+2016-08-08 15:25:23,205 org.owasp.dependencycheck.data.update.EngineVersionCheck:111
+DEBUG - Now: 1470662723205
+2016-08-08 15:25:23,205 org.owasp.dependencycheck.data.update.EngineVersionCheck:112
+DEBUG - Current version: 1.4.2
+2016-08-08 15:25:23,205 org.owasp.dependencycheck.data.update.EngineVersionCheck:147
+DEBUG - Checking web for new version.
+2016-08-08 15:25:24,673 org.owasp.dependencycheck.data.update.EngineVersionCheck:227
+DEBUG - Unable to retrieve current release version of dependency-check
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at org.owasp.dependencycheck.data.update.EngineVersionCheck.getCurrentReleaseVersion(EngineVersionCheck.java:214)
+	at org.owasp.dependencycheck.data.update.EngineVersionCheck.shouldUpdate(EngineVersionCheck.java:148)
+	at org.owasp.dependencycheck.data.update.EngineVersionCheck.update(EngineVersionCheck.java:113)
+	at org.owasp.dependencycheck.Engine.doUpdates(Engine.java:492)
+	at org.owasp.dependencycheck.Engine.analyzeDependencies(Engine.java:346)
+	at org.owasp.dependencycheck.App.runScan(App.java:266)
+	at org.owasp.dependencycheck.App.run(App.java:161)
+	at org.owasp.dependencycheck.App.main(App.java:68)
+2016-08-08 15:25:24,673 org.owasp.dependencycheck.data.update.EngineVersionCheck:159
+DEBUG - Current Release: 
+2016-08-08 15:25:24,673 org.owasp.dependencycheck.data.update.EngineVersionCheck:171
+DEBUG - Upgrade not needed
+2016-08-08 15:25:24,688 org.owasp.dependencycheck.Engine:494
+INFO  - Check for updates complete (4512 ms)
+2016-08-08 15:25:25,234 org.owasp.dependencycheck.data.nvdcve.CveDB:174
+DEBUG - Entering finalize
+2016-08-08 15:25:25,281 org.owasp.dependencycheck.data.nvdcve.CveDB:91
+DEBUG - Database dialect: H2
+2016-08-08 15:25:25,345 org.owasp.dependencycheck.Engine:359
+ERROR - No documents exist
+
+Unable to continue dependency-check analysis.
+2016-08-08 15:25:25,345 org.owasp.dependencycheck.Engine:360
+DEBUG - 
+org.owasp.dependencycheck.exception.NoDataException: No documents exist
+	at org.owasp.dependencycheck.Engine.ensureDataExists(Engine.java:555)
+	at org.owasp.dependencycheck.Engine.analyzeDependencies(Engine.java:357)
+	at org.owasp.dependencycheck.App.runScan(App.java:266)
+	at org.owasp.dependencycheck.App.run(App.java:161)
+	at org.owasp.dependencycheck.App.main(App.java:68)
+2016-08-08 15:25:25,345 org.owasp.dependencycheck.App:175
+ERROR - One or more fatal errors occured
+2016-08-08 15:25:25,345 org.owasp.dependencycheck.App:180
+ERROR - No documents exist
+2016-08-08 15:25:25,345 org.owasp.dependencycheck.App:69
+DEBUG - Exit code: -13
