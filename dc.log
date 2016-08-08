@@ -105,7 +105,7 @@ DEBUG - Loaded Analyzer OpenSSL Source Analyzer
 2016-08-08 15:25:19,864 org.owasp.dependencycheck.App:223
 DEBUG - Scanning C:/Users/XXX/dependency-check/test
 2016-08-08 15:25:19,911 org.owasp.dependencycheck.App:257
-DEBUG - Found file C:\Users\XXX\dependency-check\test\proceed.moduletemplate-1.0.jar
+DEBUG - Found file C:\Users\XXX\dependency-check\test\test.jar
 2016-08-08 15:25:20,160 org.owasp.dependencycheck.Engine:486
 INFO  - Checking for updates
 2016-08-08 15:25:20,738 org.owasp.dependencycheck.data.nvdcve.CveDB:91
